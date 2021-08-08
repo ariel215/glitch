@@ -1,7 +1,22 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tangerine&display=swap');
+
+h1, h2 {
+    font-family: 'Tangerine', cursive;
+}
+
+p, li {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: circle;
+}
+
 body{
     background-image: url("../media/paperbg-stile.jpg");
     background-repeat: repeat;
     background-color: #f0d8ba;
+    font-size: 16pt;
 
 }
 
@@ -20,7 +35,6 @@ body{
 .container > p#xp {
     grid-row: 1;
     grid-column: 7;
-    font-size: large;
 }
 
 .container > p#description {
