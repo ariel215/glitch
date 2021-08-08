@@ -1,0 +1,11 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu * {
+    text-align: center;
+    border-radius: 6px;
+    border-style: thin solid black;
+
+}
